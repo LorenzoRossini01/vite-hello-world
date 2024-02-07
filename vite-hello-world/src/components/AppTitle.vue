@@ -9,9 +9,7 @@ export default {
 </script>
 
 <template>
-  <h1 class="app-title">{{ title }}</h1>
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
 </template>
-
-<style>
-@import url(./assets/main.css);
-</style>
